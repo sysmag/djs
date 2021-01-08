@@ -158,7 +158,7 @@
         }), n.Build = {
             version: "6.22.59 (41e421b7818042bda0cd05c85fd24394)",
             jsVersion: "0329a6636601ab8227a503d39715874e236caf49",
-            wasmJsSize: 189732,
+            wasmJsSize: 189751,
             wasmVersion: "fb6d6cf569eb6b131117507da32415ce",
             wasmSize: 1809269,
             jsSize: 6656135,
@@ -671,7 +671,7 @@
                     var l = this;
                     return new Promise(function(r, i) {
                         var s = f.Build.wasmSize + f.Build.wasmJsSize,
-                            e = a.replace(".js", ".wasm.js");
+                            e = a.replace("wdosbox.js", "wdosbox.wasm.js");
                         new d.Xhr(e, {
                             cache: c,
                             responseType: "arraybuffer",
